@@ -5,9 +5,11 @@ function getComputerChoice() {
 }
 function getHumanChoice() {
     let playerChoice = prompt("Enter your move (rock, paper, or scissors):");
-    return playerChoice.toLowerCase;
+    return playerChoice;
 }
-button.addEventListener("click", () => {
-    console.log(getHumanChoice);
-});
+let answer = getHumanChoice();
+if (answer != null)
+{
+    console.log(answer);
+}
 
