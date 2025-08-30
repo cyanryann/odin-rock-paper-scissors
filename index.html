@@ -6,14 +6,28 @@
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <header>
         <h2>Rock, Paper, Scissors!</h2>
-        <h4>Play "Rock, Paper, Scissors" against the computer:</h4>
-    </div>
+        <h4>Play "Rock, Paper, Scissors" against a computer:</h4>
+    </header>
     <div class="input">
         <button id="pressme">Play!</button>
+    </div>
+    <div class="selection">
+        <button id="rock">&#x1FAA8</button>
+        <button id="paper">&#128240</button>
+        <button id="scissors">&#x2702</button>
+    </div>
+    <div class="result">
+        <p id="resulttext"></p>
+    </div>
+    <div class="score">
+        <h2 id="scoreboard">You 0 - 0 Computer</h2>
     </div>
 </body>
 </html>
